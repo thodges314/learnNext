@@ -8,7 +8,9 @@ const Layout = props => (
 			<link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css"/>
 		</Head>
 		<NavBar/>
-		{props.children}
+		<div className='container'>
+			{props.children}
+		</div>
 	</div>
 )
 

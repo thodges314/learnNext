@@ -53,7 +53,14 @@ var Layout = function Layout(props) {
       lineNumber: 10
     },
     __self: this
-  }), props.children);
+  }), __jsx("div", {
+    className: "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, props.children));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
