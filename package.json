@@ -1,0 +1,18 @@
+{
+  "name": "nexttutorial",
+  "version": "1.0.0",
+  "description": "Thing to learn nextjs",
+  "main": "index.js",
+  "scripts": {
+    "dev":   "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Thomas Hodges",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
